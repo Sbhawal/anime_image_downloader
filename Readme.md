@@ -23,12 +23,14 @@ Originally built as a web image scraper to download images for setting up as des
 
 - [x] [Konachan](https://konachan.com/)
 - [x] [Yande.re](https://yande.re/)
-- [] [Danbooru](https://danbooru.donmai.us/)
-- [] [Safebooru](https://safebooru.org/)
-- [] [Gelbooru](https://gelbooru.com/)
-- [] [Sankaku](https://chan.sankakucomplex.com/)
-- [] [Zerochan](https://www.zerochan.net/)
-- [] [Rule34](https://rule34.xxx/)
+- [ ] [Danbooru](https://danbooru.donmai.us/)
+- [ ] [Safebooru](https://safebooru.org/)
+- [ ] [Gelbooru](https://gelbooru.com/)
+- [ ] [Sankaku](https://chan.sankakucomplex.com/)
+- [ ] [Zerochan](https://www.zerochan.net/)
+- [ ] [Rule34](https://rule34.xxx/)
+
+---
 
 ## TODO
 
