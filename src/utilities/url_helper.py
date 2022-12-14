@@ -1,15 +1,5 @@
-import requests
-from bs4 import BeautifulSoup
-
 from src.site_support import *
 from src.utilities.constants import sites
-
-
-def read_url(url):
-    """Reads a url and returns the html"""
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    return soup
 
 
 def parse_url(url):

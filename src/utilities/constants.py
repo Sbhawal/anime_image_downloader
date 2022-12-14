@@ -4,11 +4,16 @@ import os
 CONFIG_FILE_LOC = r'config.ini'
 
 
-if os.path.exists(CONFIG_FILE_LOC):
+if not os.path.exists(CONFIG_FILE_LOC):
     print('Config file missing, Will iniialize a new config file.')
 
-parser = configparser.ConfigParser()
-parser.read(CONFIG_FILE_LOC)
+try:
+    parser = configparser.ConfigParser()
+    parser.read(CONFIG_FILE_LOC)
+    print("Successfully read config file.")
+except:
+    print("Failed to read config file. Exiting program.")
+
 
 # download_folder = config
 sections = parser.sections()
@@ -58,4 +63,3 @@ if parser['SITES']['safebooru.org']:
 if parser['SITES']['derpibooru.org']:
     sites.append('derpibooru.org')
     
-print(sites)
